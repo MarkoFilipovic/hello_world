@@ -1,0 +1,12 @@
+#MQMDirect for module STLContainerTests
+MPROJECT = STLContainerTests
+GUID = {ED743996-3BD4-A44E-85E4-9417BFC7FFC8}
+TEMPLATE = app
+MCLASSLIB = QT
+MDIR_DEST = $$(MBCRELEASE)
+
+CONFIG += console
+
+SOURCES += Main.cpp
+MDEPENDS += boost
+
