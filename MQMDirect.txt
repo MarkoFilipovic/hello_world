@@ -7,6 +7,8 @@ MDIR_DEST = $$(MBCRELEASE)
 
 CONFIG += console
 
-SOURCES += Main.cpp
+
+
+SOURCES += Main
 MDEPENDS += boost
 
